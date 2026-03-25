@@ -15,7 +15,7 @@ void main() {
     curso2.setCargaHoraria(10);
     Mentoria mentor1 = new Mentoria();
     mentor1.setTitulo("Mentoria de Java ");
-    mentor1.setDescicao("descrição de mentoria java ");
+    mentor1.setDescricao("descrição de mentoria java ");
     mentor1.setData(LocalDate.now());
 
     println(mentor1);
