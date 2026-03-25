@@ -1,0 +1,35 @@
+package ao.com.desafio.dominio;
+
+import java.time.LocalDate;
+
+public class Mentoria {
+    String titulo ;
+     String descicao;
+     LocalDate data;
+    public Mentoria(){
+
+    }
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getDescicao() {
+        return descicao;
+    }
+
+    public void setDescicao(String descicao) {
+        this.descicao = descicao;
+    }
+
+    public LocalDate getData() {
+        return data;
+    }
+
+    public void setData(LocalDate data) {
+        this.data = data;
+    }
+}
